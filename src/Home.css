@@ -1,0 +1,97 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('background.jpg') no-repeat center center/cover;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .hero-section h1 {
+    font-size: 4em;
+    margin: 0;
+  }
+  
+  .hero-section p {
+    font-size: 1.5em;
+    color: #bbbbbb;
+    margin: 10px 0;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #1e90ff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background: #104e8b;
+  }
+  
+  .additional-content {
+    margin-top: 50px;
+    text-align: left;
+  }
+  
+  .additional-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #1e90ff;
+  }
+  
+  .additional-content p {
+    font-size: 1.2em;
+    color: #bbbbbb;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  .service {
+    background: rgba(30, 30, 30, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .service h3 {
+    font-size: 1.5em;
+    color: #1e90ff;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 1em;
+    color: #bbbbbb;
+  }
+  
+  @media (max-width: 768px) {
+    .services {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  }
+  

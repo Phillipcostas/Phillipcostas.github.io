@@ -1,21 +1,18 @@
 import React from 'react';
-import './Footer.css';
+import './CSS/App.css';
 
 const Footer = () => {
   return (
     <footer>
-      <p>&copy; {new Date().getFullYear()} Phillip Costas. All rights reserved.</p>
       <div className="social-icons">
-        <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-github"></i>
+        <a href="https://github.com/Phillipcostas" target="_blank" rel="noopener noreferrer">
+        <i className="fa fa-github" aria-hidden="true"></i>
         </a>
-        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-linkedin"></i>
-        </a>
-        <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">
-          <i className="fab fa-twitter"></i>
+        <a href="https://www.linkedin.com/in/phillip-costas-6804281a/" target="blank" rel="noopener noopener">
+        <i class="fa-brands fa-linkedin"></i>
         </a>
       </div>
+      <p>&copy; 2024 Phillip Costas. All rights reserved.</p>
     </footer>
   );
 };

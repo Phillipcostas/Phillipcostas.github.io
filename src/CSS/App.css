@@ -34,7 +34,7 @@ a {
   align-items: flex-start;
   justify-content: flex-start;
   height: 100vh;
-  width: 60%;
+  width: 100%;
   background: url('background.jpg') no-repeat center center/cover;
   color: #ffffff;
   text-align: left;
@@ -103,7 +103,7 @@ a {
   display: flex;
   justify-content: space-around;
   margin-top: 5px;
-  /* padding: 40px; */
+  padding: 50px;
 }
 
 .service {
@@ -111,7 +111,8 @@ a {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
-  width: 40%;
+  width: 25%;
+
 }
 
 .service h3 {

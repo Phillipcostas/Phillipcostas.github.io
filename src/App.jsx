@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import Resume from './components/Resume'
 import Skills from './components/Skills'
 
+
 import './CSS/App.css';
 
 const App = () => {
@@ -41,12 +42,15 @@ const App = () => {
         </div>
       </section>
      
+     
       <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/skills" element={<Skills />} />
         </Routes>
+
+        
       <Footer />
     </>
   );

@@ -1,0 +1,21 @@
+.resume-section {
+  padding: 20px;
+}
+
+.resume-content {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.resume-content h3, .resume-content h4 {
+  margin-top: 20px;
+}
+
+.resume-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.resume-content li {
+  margin-bottom: 10px;
+}

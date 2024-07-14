@@ -7,7 +7,7 @@
   max-width: 800px;
 }
 
-.resume-content h3, .resume-content h4 {
+.resume-content h3, .resume-content h4, .resume-content h5 {
   margin-top: 20px;
 }
 
@@ -18,4 +18,24 @@
 
 .resume-content li {
   margin-bottom: 10px;
+}
+
+.skills-container, .experience-container, .education-container, .extras-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skills-container > div, .experience-item, .education-item, .extra-item {
+  flex: 1 1 calc(35% - 20px); 
+  background: #f9f9f9; 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.experience-item, .education-item, .extra-item {
+  min-width: 250px; 
+}
+
+.skills-sub-container {
+  flex: 1 1 100%; 
 }

@@ -1,0 +1,24 @@
+.project-container {
+    padding: 20px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  .project-container h1, .project-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .project-container p {
+    margin-bottom: 15px;
+  }
+  
+  .project-container a {
+    color: #1e90ff; /* Change this to your preferred color */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .project-container a:hover {
+    text-decoration: underline;
+  }
+  

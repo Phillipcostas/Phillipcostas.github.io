@@ -40,20 +40,21 @@ a {
   text-align: left;
   padding: 20px;
   padding-top: 80px;
-  padding-bottom: 0px;
 }
 
 .hero-content {
   display: flex;
   align-items: flex-start;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(30, 30, 30, 0.9);
   padding: 20px;
   border-radius: 10px;
-  width: 90%;
+  width: 45%;
+  margin-top: 100px;
 }
 
 .hero-text {
   flex: 1;
+  color: #1e90ff;
 }
 
 .hero-text h1 {
@@ -62,6 +63,7 @@ a {
 
 .hero-subtitle {
   font-size: 1.2em;
+  color: #bbbbbb;
 }
 
 .cta-button {
@@ -80,8 +82,8 @@ a {
 }
 
 .additional-content {
-  margin-top: 10px;
-  padding: 20px;
+  /* margin-top: 10px; */
+  /* padding: 20px; */
   align-self: flex-end;
   transform: translateY(-20px);
   width: 100%;
@@ -102,29 +104,57 @@ a {
 .services {
   display: flex;
   justify-content: space-around;
-  margin-top: 5px;
-  padding: 50px;
+  /* margin-top: 5px; */
+  /* padding: 50px; */
 }
 
 .service {
   background: rgba(30, 30, 30, 0.9);
-  padding: 20px;
+  /* padding: 20px; */
   border-radius: 10px;
   text-align: center;
   width: 25%;
-
 }
 
 .service h3 {
   font-size: 1.5em;
   color: #1e90ff;
-  margin-bottom: 10px;
+  
 }
 
 .service p {
   font-size: 1em;
   color: #bbbbbb;
 }
+
+.about-container {
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 20px;
+  padding-bottom: 50px;
+  background-color: #f9f9f9;
+  border-radius: 10px; 
+  box-shadow: 0 5px 10px rgba(7, 7, 7, 0.1); 
+}
+
+.about-container p {
+  line-height: 1.6;
+}
+
+
+.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 70%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 80px;
+  right: 60px;
+}
+
+
+
 
 @media (max-width: 768px) {
   .services {
@@ -134,7 +164,6 @@ a {
 
   .service {
     width: 80%;
-    margin-bottom: 20px;
   }
 }
 
